@@ -1,0 +1,36 @@
+Natural Processing Language
+
+build expert system that mimic humans
+
+POSTMAN
+thunderclient
+
+http verb
+POSTMAN
+
+-post
+-get
+-patch/put - update record - 200
+-delete ~ 204 - been deleted
+
+end point- address to interact with APIs eg: https://abc.com/users
+
+padlock- token is sent to the user bcos info is protected
+
+status code
+404 - not found
+409 - conflict interest
+403 - access denied
+500 - not frontend issue, internal server problem; 
+200 - successful
+
+get- retrieve
+
+axios is asynchronous
+
+resolve
+rejected
+pending
+
+consuming API installation
+npm i axios/ fetch
