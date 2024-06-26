@@ -15,6 +15,7 @@ import Counter from './components/UseState/Counter'
 import BankForm from './components/UseState/BankForm'
 import SecondTest from './components/SignupFormValidation/SecondTest'
 import ToDoTest from './components/SignupFormValidation/ToDoTest'
+import Register from './components/API/Register'
 
 function App() {
 const fruits = ["mango", "lemon", "orange", "apple"];
@@ -55,6 +56,8 @@ const handleLogin= ()=>{
      {/* <Counter/> */}
      {/* <BankForm/> */}
      {/* <ToDoTest/> */}
+     <h1>Resgister User</h1>
+     <Register/>
 
     </>
   )

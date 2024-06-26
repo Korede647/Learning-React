@@ -8,6 +8,7 @@ thunderclient
 http verb
 POSTMAN
 
+http verb
 -post
 -get
 -patch/put - update record - 200
