@@ -1,0 +1,20 @@
+.navigation{
+    color: black;
+    border-bottom: 1px solid #333;
+    display: flex;
+    height: 100px;
+    gap: 100px;
+    padding: 20px;
+    align-items:center;
+    justify-content: center;
+}
+button{
+    background-color: black;
+    border: none;
+    height: 30px;
+    color: whitesmoke;
+}
+.nav-middle{
+    display: flex;
+    gap: 20px;
+}

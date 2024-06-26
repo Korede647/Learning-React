@@ -2,8 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import MyPage from './components/MyPage'
-import Footer from './components/Footer'
+import HomeMyPage from './pages/home/HomeMyPage'
+import Nav from './components/nav/Nav'
 import ListItems from './components/Props/ListItems'
 import Greeting from './components/Props/Greeting'
 import Button from './components/Props/Button'
@@ -16,6 +16,7 @@ import BankForm from './components/UseState/BankForm'
 import SecondTest from './components/SignupFormValidation/SecondTest'
 import ToDoTest from './components/SignupFormValidation/ToDoTest'
 import Register from './components/API/Register'
+import AppRouter from './AppRouter'
 
 function App() {
 const fruits = ["mango", "lemon", "orange", "apple"];
@@ -52,12 +53,13 @@ const handleLogin= ()=>{
     {/* <h2>Registration</h2> */}
     {/* <SignUp/> */}
     {/* <TestForm/> */}
-     <h2>Managing Count</h2>
+     {/* <h2>Managing Count</h2> */}
      {/* <Counter/> */}
      {/* <BankForm/> */}
      {/* <ToDoTest/> */}
-     <h1>Resgister User</h1>
-     <Register/>
+     {/* <h1>Resgister User</h1> */}
+     {/* <Register/> */}
+     <AppRouter/>
 
     </>
   )
