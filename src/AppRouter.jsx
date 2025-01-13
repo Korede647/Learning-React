@@ -16,6 +16,9 @@ const AppRouter = () => {
           <Route path="/footer" element={<Footer />} />
           <Route path="*" element={<Notfound />}/>
         </Routes>
+        <Route path="/categories">
+           
+        </Route>
       </Router>
     </>
   );

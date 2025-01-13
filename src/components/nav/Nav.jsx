@@ -29,3 +29,6 @@ const Footer = () => {
 }
 
 export default Footer
+
+
+// use params

@@ -17,6 +17,7 @@ import SecondTest from './components/SignupFormValidation/SecondTest'
 import ToDoTest from './components/SignupFormValidation/ToDoTest'
 import Register from './components/API/Register'
 import AppRouter from './AppRouter'
+import GetUserList from './components/API/GetUserList'
 
 function App() {
 const fruits = ["mango", "lemon", "orange", "apple"];
@@ -45,11 +46,11 @@ const handleLogin= ()=>{
     <br /><br />
     <Button label="Login" onClick = {handleLogin} title="Login here"></Button> */}
 
-    {/* <div className='testimonyCards'>
+    <div className='testimonyCards'>
     <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/>
     <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/>
-    <Testimony/>  <img src={Fati} alt="" /> */}
-    {/* </div> */}
+    {/* <Testimony/>  <img src={Fati} alt="" />  */}
+     </div>
     {/* <h2>Registration</h2> */}
     {/* <SignUp/> */}
     {/* <TestForm/> */}
@@ -59,7 +60,8 @@ const handleLogin= ()=>{
      {/* <ToDoTest/> */}
      {/* <h1>Resgister User</h1> */}
      {/* <Register/> */}
-     <AppRouter/>
+     {/* <AppRouter/> */}
+     {/* <GetUserList/> */}
 
     </>
   )

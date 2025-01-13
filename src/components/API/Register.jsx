@@ -15,7 +15,7 @@ const Register = () => {
 
     try{
       const response = await axios.post(
-        "",
+              "https://ecommerce-backend-cxlj.onrender.com/api/v1/users/register/",
       { 
       fullname,
       email,
@@ -34,7 +34,7 @@ const Register = () => {
   return (
     <>
 
-      <form>
+      <form onSubmit={handleSubmit}>
         <div>
           <label htmlFor="fullname">Name</label>
           <input
