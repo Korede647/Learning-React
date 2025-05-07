@@ -1,6 +1,13 @@
-/* From Uiverse.io by gharsh11032000 */ 
+.mainDiv{
+  width: 100%;
+  display: flex;
+  background-color: #212121;
+  align-items: center;
+  gap: 20%;
+}
 .form-container {
     width: 400px;
+    height: 500px;
     background-color: #fff;
     padding: 24px;
     font-size: 14px;

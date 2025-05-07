@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Signup.css";
 import { useNavigate } from "react-router-dom";
+import SideBar from "../../components/SideBar";
 
 const Signup = () => {
     const [firstName, setFirstName] = useState("")
@@ -47,6 +48,8 @@ const Signup = () => {
     }
 
   return (
+    <div className="mainDiv">
+      <SideBar/>
     <div className="form-container">
       <div className="logo-container">Create Account</div>
 
@@ -113,6 +116,7 @@ const Signup = () => {
           Sign up now
         </a>
       </p>
+    </div>
     </div>
   );
 };
