@@ -18,6 +18,7 @@ import ToDoTest from './components/SignupFormValidation/ToDoTest'
 import Register from './components/API/Register'
 import AppRouter from './AppRouter'
 import GetUserList from './components/API/GetUserList'
+import Landing from './pages/Landing/Landing'
 
 function App() {
 const fruits = ["mango", "lemon", "orange", "apple"];
@@ -31,6 +32,15 @@ const handleLogin= ()=>{
 
   return (
     <>
+    <Landing/>
+
+
+
+
+
+
+
+    
       {/* <MyPage/>
       <Footer/> */}
     
@@ -46,11 +56,11 @@ const handleLogin= ()=>{
     <br /><br />
     <Button label="Login" onClick = {handleLogin} title="Login here"></Button> */}
 
-    <div className='testimonyCards'>
-    <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/>
-    <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/>
+    {/* <div className='testimonyCards'> */}
+    {/* <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/> */}
+    {/* <Testimony message = '"I love this products. Displaying customer reviews or testimonials on your website is a wise way to convert visitors into customers. Testimonials are effective because they establish trust, encouraging visitors to buy, subscribe, or take whatever action you are after."' img={Fati} name="Samuel Abel" title="Software Apprentice"/> */}
     {/* <Testimony/>  <img src={Fati} alt="" />  */}
-     </div>
+     {/* </div> */}
     {/* <h2>Registration</h2> */}
     {/* <SignUp/> */}
     {/* <TestForm/> */}

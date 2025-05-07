@@ -1,0 +1,20 @@
+.practice{
+    width: 350px;
+    height: 250px;
+    box-shadow: 4px 4px 4px 10px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.name{
+    color: blue;
+    font-size: 17px;
+}
+
+.age{
+    color: brown;
+    font-size: 15px;
+}
