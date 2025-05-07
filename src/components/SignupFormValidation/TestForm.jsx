@@ -22,6 +22,7 @@ const TestForm = () => {
     const onSubmit = (data) => {
         console.log(data);
         alert("You have been signed up succesfully")
+        
     }
   return (
     <>
