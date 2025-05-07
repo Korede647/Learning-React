@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Signup.css";
+import { useNavigate } from "react-router-dom";
 
 const Signup = () => {
     const [firstName, setFirstName] = useState("")
@@ -7,6 +8,8 @@ const Signup = () => {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
     const [error, setError] = useState("");
+
+    const navigate = useNavigate()
 
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -40,6 +43,7 @@ const Signup = () => {
 
      alert("Form Submitted Successfully.")
 
+    navigate("/landing")
     }
 
   return (

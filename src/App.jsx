@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React from 'react'
 import './App.css'
 import Landing from './Landing/Landing.jsx'
 import Signup from './Landing/SignUp/Signup.jsx'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
- 
 
   return (
     <>
@@ -16,9 +14,14 @@ function App() {
       alignContent: "center",
       width: "100%",
     }}>
-     {/* <Landing/>
-     <Landing/> */}
-     <Signup/>
+      
+       <BrowserRouter>
+      <Routes>
+         <Route path='/' element={<Signup/>}/>
+         <Route path='/landing' element={<Landing/>}/>
+      </Routes>
+    </BrowserRouter>
+
      </div>
     </>
   )
