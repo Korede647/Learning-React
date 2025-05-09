@@ -15,12 +15,13 @@ function App() {
       width: "100%",
     }}>
 
-       <BrowserRouter>
-      <Routes>
-         <Route path='/' element={<Signup/>}/>
-         <Route path='/landing' element={<Landing/>}/>
-      </Routes>
-    </BrowserRouter>
+      <BrowserRouter>
+          <Routes>
+            <Route path = "/" element = {<Signup/>}/>
+            <Route path ='/landing' element = {<Landing/>}/>
+            <Route path="/landing2" element = {<Landing/>}/>
+          </Routes>
+      </BrowserRouter>
 
      </div>
     </>

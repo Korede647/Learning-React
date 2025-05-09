@@ -25,7 +25,12 @@ const SideBar = () => {
         }}>
           <LuLayoutDashboard className='icon' /> Dashboard</NavLink>
 
-        <NavLink><GoHome className='icon' /> Home</NavLink>
+        <NavLink to="/landing2" 
+        style={({isActive}) => {
+          return isActive ?  {backgroundColor: '#e81cff2c',
+            color: "whitesmoke"
+          } : {backgroundColor: '#0e0e0e'}
+        }}><GoHome className='icon' /> Home</NavLink>
 
         <NavLink to="/landing" 
          style={({isActive}) => {

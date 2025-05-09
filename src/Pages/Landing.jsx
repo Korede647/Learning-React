@@ -10,7 +10,9 @@ const Landing = () => {
   return (
     <div className="mainDiv">
       <SideBar/>
+      
       <div className="dashboard">
+
     <div className='practice'>
       <div className="image">
         <img src={JudeB} alt="" />
@@ -37,7 +39,9 @@ const Landing = () => {
       <h2 className='name'>I am {Name}</h2>
       <h1 className='age'>I am {Age} years old</h1>
     </div>
+
     </div>
+
     </div>
   )
 }
